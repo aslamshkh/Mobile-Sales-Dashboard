@@ -36,7 +36,7 @@ The dashboard is designed for retail managers, marketing teams, and business ana
 
 ## Data Overview
 
-This project is based on a publicly available dataset from a Github repositry. The dataset contains 3835 records and 14 columns, each representing key attributes of mobile phone sales such as transaction details, customer ratings, payment methods, brand, and product specifications.
+This project is based on a publicly available dataset from a Github repositry. The dataset contains 3835 records and 14 columns, each representing key attributes of mobile phone sales such as transaction details, customer ratings, brand, and product specifications.
 
 ## Dataset Summary
 
@@ -74,71 +74,71 @@ The dataset was first imported into Excel and then loaded into Power BI for tran
 ## Data Cleaning and Transformation
 
 <details>
-<summary>1. Checked Column Quality</summary>
+<summary>1. Error and Column Quality Check</summary>
 
-Used **View > Column Quality** to check for errors, empty cells, and invalid entries.  
-✅ No issues were found — all columns were clean and complete.
-
-</details>
-
-<details>
-<summary>2. Reviewed Columns Before Import</summary>
-
-Verified column structure and data types in the **Navigator Window** before loading into Power Query Editor.  
-Ensured the correct Excel sheet was selected for transformation and modeling.
+ Used **View > Column Quality** to check for errors, empty cells, and invalid entries.  
+ ✅ No issues were found — all columns were clean and complete.
 
 </details>
 
 <details>
-<summary>3. Date Column</summary>
+<summary>2. Inspection Before Loading</summary>
 
-Merged the Year, Month, and Date columns into a single Date column using:  
-**Transform > Merge Columns**  
-- Added a separator  
-- Renamed the column  
-- Changed data type to **Date**
+ Verified column structure and data types in the **Navigator Window** before loading into Power Query Editor.  
+ Ensured the correct Excel sheet was selected for transformation and modeling.
+
+</details>
+
+<details>
+<summary>3. Date Column Merging</summary>
+
+ Merged the Year, Month, and Date columns into a single Date column using:  
+ **Transform > Merge Columns**  
+ - Added a separator  
+ - Renamed the column  
+ - Changed data type to **Date**
 
 </details>
 
 <details>
 <summary>4. Day Name Standardization</summary>
 
-Used **Transform > Replace Values** to clean inconsistent weekday names:  
-- "Fr" → "Friday"  
-- "Mon" → "Monday"  
-- "Sat" → "Saturday"  
-...and so on for the full week.
+ Used **Transform > Replace Values** to clean inconsistent weekday names:  
+ - "Fr" → "Friday"  
+ - "Mon" → "Monday"  
+ - "Sat" → "Saturday"  
+ ...and so on for the full week.
 
 </details>
 
 <details>
-<summary>5. Customer Calendar Creation</summary>
+<summary>5. Customer Calendar Creation**</summary>
 
-Created a custom date table to handle missing dates and enable dynamic slicers.
+ Created a custom date table to handle missing dates and enable dynamic slicers.
 
-- Used: **Home > New Query > Blank Query**  
-- Applied formula:  
-  `= List.Dates(#date(2021,01,01), 1461, #duration(1,0,0,0))`  
-- Renamed the column and query  
-- Changed data type to **Date**  
-- Extracted **Day Name** column for weekday analysis
+ - Used: **Home > New Query > Blank Query**  
+ - Applied formula:  
+   `= List.Dates(#date(2021,01,01), 1461, #duration(1,0,0,0))`  
+ - Renamed the column and query  
+ - Changed data type to **Date**  
+ - Extracted **Day Name** column for weekday analysis
 
 </details>
 
 <details>
 <summary>6. Duplicate Check</summary>
 
-Used **Home > Keep Rows > Keep Duplicates** to check for duplicate records.  
-✅ No duplicate rows were found.
+ Used **Home > Keep Rows > Keep Duplicates** to check for duplicate records.  
+ ✅ No duplicate rows were found.
 
 </details>
 
 <details>
-<summary>7. Final Load</summary>
+<summary>7. Final Load**</summary>
 
-Renamed the cleaned query and applied changes using:  
-**Home > Close & Apply**  
-Data was successfully loaded into Power BI for modeling and visualization.
+ Renamed the cleaned query and applied changes using:  
+ **Home > Close & Apply**  
+ Data was successfully loaded into Power BI for modeling and visualization.
 
 </details>
 ---
@@ -186,6 +186,6 @@ The dashboard was built in Power BI with a clean, interactive layout designed fo
 
 The dashboard was published to Power BI Service for web-based access and portfolio presentation.
 
-![image]()
+![image](https://github.com/aslamshkh/Mobile-Sales-Dashboard/blob/main/Moble%20Sale%20Dashboard.png)
 
 
