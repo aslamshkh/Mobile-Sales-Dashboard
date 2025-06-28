@@ -112,7 +112,7 @@ The dataset was first imported into Excel and then loaded into Power BI for tran
 </details>
 
 <details>
-<summary>5. Customer Calendar Creation**</summary>
+<summary>5. Customer Calendar Creation</summary>
 
  Created a custom date table to handle missing dates and enable dynamic slicers.
 
@@ -134,18 +134,20 @@ The dataset was first imported into Excel and then loaded into Power BI for tran
 </details>
 
 <details>
-<summary>7. Final Load**</summary>
+<summary>7. Final Load</summary>
 
  Renamed the cleaned query and applied changes using:  
  **Home > Close & Apply**  
  Data was successfully loaded into Power BI for modeling and visualization.
 
 </details>
+
 ---
 
 ## Data Exploration and Key Insights
 
-After completing the data cleaning and transformation steps, I explored the dataset using Power BI visuals and DAX measures to uncover trends in sales performance, customer behavior, and brand dynamics. The following insights were identified:
+After completing the data cleaning and transformation steps, I explored the dataset using Power BI visuals and DAX measures to uncover trends in sales performance, customer behavior, a
+nd brand dynamics. The following insights were identified:
 
 - Sales remained consistent across the three-year period, with slight dips observed in February and September.
 - Thursday and Saturday emerged as the highest-performing days in terms of total sales volume.
