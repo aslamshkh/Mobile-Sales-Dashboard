@@ -1,6 +1,6 @@
 # 📱 Mobile Sales Dashboard
 
-## The Table Of Contents
+## 📑 The Table Of Contents
 - [Purpose](#purpose)
 - [Performance Indicators](#performance-indicators)
 - [Data Overview](#data-overview)
@@ -12,7 +12,7 @@
 
 ---
 
-## Purpose
+## 🎯 Purpose
 
 This project aims to enhance strategic decision-making in the mobile retail sector through a data-driven sales analytics dashboard. Built entirely in Microsoft Power BI, the solution leverages Power Query, DAX, and interactive visuals to analyze sales performance, customer behavior, and brand trends across India.
 
@@ -20,7 +20,7 @@ The dashboard is designed for retail managers, marketing teams, and business ana
 
 ---
 
-## Performance Indicators
+## 📊 Performance Indicators
 
 - **Total Sales**: Overall revenue generated from mobile phone transactions across all cities and brands.
 - **Total Quantity Sold**: Total number of mobile units sold during the selected time period.
@@ -34,11 +34,11 @@ The dashboard is designed for retail managers, marketing teams, and business ana
 
 ---
 
-## Data Overview
+## 📁 Data Overview
 
 This project is based on a publicly available dataset from a Github repositry. The dataset contains 3835 records and 14 columns, each representing key attributes of mobile phone sales such as transaction details, customer ratings, brand, and product specifications.
 
-## Dataset Summary
+## 🧾 Dataset Summary
 
 - **Format**: Excel 
 - **Rows**: 3835 (including header)  
@@ -47,7 +47,7 @@ This project is based on a publicly available dataset from a Github repositry. T
 
 ---
 
-## Initial Data Observations
+## 🔍 Initial Data Observations
 
 The dataset appeared mostly clean and structured, but a few adjustments were necessary to prepare it for analysis and dashboard creation:
 
@@ -58,7 +58,7 @@ The dataset appeared mostly clean and structured, but a few adjustments were nec
 
 ---
 
-## Data Loading
+## 📥 Data Loading
 
 The dataset was first imported into Excel and then loaded into Power BI for transformation and modeling:
 
@@ -71,7 +71,7 @@ The dataset was first imported into Excel and then loaded into Power BI for tran
 
 ---
 
-## Data Cleaning and Transformation
+## 🧹 Data Cleaning and Transformation
 
 <details>
 <summary>1. Error and Column Quality Check</summary>
@@ -144,7 +144,7 @@ The dataset was first imported into Excel and then loaded into Power BI for tran
 
 ---
 
-## Data Exploration and Key Insights
+## 💡 Data Exploration and Key Insights
 
 After completing the data cleaning and transformation steps, I explored the dataset using Power BI visuals and DAX measures to uncover trends in sales performance, customer behavior, a
 nd brand dynamics. The following insights were identified:
@@ -160,7 +160,7 @@ nd brand dynamics. The following insights were identified:
 
 ---
 
-## Dashboard Creation
+## 🛠️ Dashboard Creation
 
 The dashboard was built in Power BI with a clean, interactive layout designed for clarity, usability, and insight discovery. Key formatting and design steps included:
 
@@ -169,7 +169,7 @@ The dashboard was built in Power BI with a clean, interactive layout designed fo
 - Custom tooltips and dynamic titles to enhance user experience and context awareness.
 - All visuals were arranged to guide the user from high-level KPIs to detailed breakdowns.
 
-## Visual Overview
+### Visual Overview
 
 - **KPI Cards**: Displayed Total Sales, Quantity Sold, Total Transactions, and Average Price per Unit for quick performance tracking.
 
