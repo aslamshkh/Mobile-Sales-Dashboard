@@ -188,6 +188,7 @@ The dashboard was built in Power BI with a clean, interactive layout designed fo
 
 The dashboard was published to Power BI Service for web-based access and portfolio presentation.
 
-![image](https://github.com/aslamshkh/Mobile-Sales-Dashboard/blob/main/Moble%20Sale%20Dashboard.png)
+![image](https://github.com/aslamshkh/Mobile_Sales_Dashboard/blob/main/Mobile%20Sale%20Dashboard.png)
+
 
 
